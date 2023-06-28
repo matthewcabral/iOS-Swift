@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB162C201F12CB1300BBA446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162C1F1F12CB1300BBA446 /* AppDelegate.swift */; };
+		EB162C221F12CB1300BBA446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162C211F12CB1300BBA446 /* ViewController.swift */; };
+		EB162C251F12CB1300BBA446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB162C231F12CB1300BBA446 /* Main.storyboard */; };
+		EB162C271F12CB1300BBA446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162C261F12CB1300BBA446 /* Assets.xcassets */; };
+		EB162C2A1F12CB1300BBA446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB162C281F12CB1300BBA446 /* LaunchScreen.storyboard */; };
+		EB162C351F12CB1300BBA446 /* Cara_ou_CoroaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162C341F12CB1300BBA446 /* Cara_ou_CoroaTests.swift */; };
+		EB162C401F12CB1300BBA446 /* Cara_ou_CoroaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162C3F1F12CB1300BBA446 /* Cara_ou_CoroaUITests.swift */; };
+		EB162C5A1F12D11C00BBA446 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162C591F12D11C00BBA446 /* DetalhesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB162C311F12CB1300BBA446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB162C141F12CB1300BBA446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB162C1B1F12CB1300BBA446;
+			remoteInfo = "Cara ou Coroa";
+		};
+		EB162C3C1F12CB1300BBA446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB162C141F12CB1300BBA446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB162C1B1F12CB1300BBA446;
+			remoteInfo = "Cara ou Coroa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB162C1C1F12CB1300BBA446 /* Cara ou Coroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cara ou Coroa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB162C1F1F12CB1300BBA446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB162C211F12CB1300BBA446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB162C241F12CB1300BBA446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB162C261F12CB1300BBA446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB162C291F12CB1300BBA446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB162C2B1F12CB1300BBA446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB162C301F12CB1300BBA446 /* Cara ou CoroaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cara ou CoroaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB162C341F12CB1300BBA446 /* Cara_ou_CoroaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cara_ou_CoroaTests.swift; sourceTree = "<group>"; };
+		EB162C361F12CB1300BBA446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB162C3B1F12CB1300BBA446 /* Cara ou CoroaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cara ou CoroaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB162C3F1F12CB1300BBA446 /* Cara_ou_CoroaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cara_ou_CoroaUITests.swift; sourceTree = "<group>"; };
+		EB162C411F12CB1300BBA446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB162C591F12D11C00BBA446 /* DetalhesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB162C191F12CB1300BBA446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB162C2D1F12CB1300BBA446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB162C381F12CB1300BBA446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB162C131F12CB1300BBA446 = {
+			isa = PBXGroup;
+			children = (
+				EB162C1E1F12CB1300BBA446 /* Cara ou Coroa */,
+				EB162C331F12CB1300BBA446 /* Cara ou CoroaTests */,
+				EB162C3E1F12CB1300BBA446 /* Cara ou CoroaUITests */,
+				EB162C1D1F12CB1300BBA446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB162C1D1F12CB1300BBA446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB162C1C1F12CB1300BBA446 /* Cara ou Coroa.app */,
+				EB162C301F12CB1300BBA446 /* Cara ou CoroaTests.xctest */,
+				EB162C3B1F12CB1300BBA446 /* Cara ou CoroaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB162C1E1F12CB1300BBA446 /* Cara ou Coroa */ = {
+			isa = PBXGroup;
+			children = (
+				EB162C1F1F12CB1300BBA446 /* AppDelegate.swift */,
+				EB162C211F12CB1300BBA446 /* ViewController.swift */,
+				EB162C591F12D11C00BBA446 /* DetalhesViewController.swift */,
+				EB162C231F12CB1300BBA446 /* Main.storyboard */,
+				EB162C261F12CB1300BBA446 /* Assets.xcassets */,
+				EB162C281F12CB1300BBA446 /* LaunchScreen.storyboard */,
+				EB162C2B1F12CB1300BBA446 /* Info.plist */,
+			);
+			path = "Cara ou Coroa";
+			sourceTree = "<group>";
+		};
+		EB162C331F12CB1300BBA446 /* Cara ou CoroaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB162C341F12CB1300BBA446 /* Cara_ou_CoroaTests.swift */,
+				EB162C361F12CB1300BBA446 /* Info.plist */,
+			);
+			path = "Cara ou CoroaTests";
+			sourceTree = "<group>";
+		};
+		EB162C3E1F12CB1300BBA446 /* Cara ou CoroaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB162C3F1F12CB1300BBA446 /* Cara_ou_CoroaUITests.swift */,
+				EB162C411F12CB1300BBA446 /* Info.plist */,
+			);
+			path = "Cara ou CoroaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB162C1B1F12CB1300BBA446 /* Cara ou Coroa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB162C441F12CB1300BBA446 /* Build configuration list for PBXNativeTarget "Cara ou Coroa" */;
+			buildPhases = (
+				EB162C181F12CB1300BBA446 /* Sources */,
+				EB162C191F12CB1300BBA446 /* Frameworks */,
+				EB162C1A1F12CB1300BBA446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cara ou Coroa";
+			productName = "Cara ou Coroa";
+			productReference = EB162C1C1F12CB1300BBA446 /* Cara ou Coroa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB162C2F1F12CB1300BBA446 /* Cara ou CoroaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB162C471F12CB1300BBA446 /* Build configuration list for PBXNativeTarget "Cara ou CoroaTests" */;
+			buildPhases = (
+				EB162C2C1F12CB1300BBA446 /* Sources */,
+				EB162C2D1F12CB1300BBA446 /* Frameworks */,
+				EB162C2E1F12CB1300BBA446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB162C321F12CB1300BBA446 /* PBXTargetDependency */,
+			);
+			name = "Cara ou CoroaTests";
+			productName = "Cara ou CoroaTests";
+			productReference = EB162C301F12CB1300BBA446 /* Cara ou CoroaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB162C3A1F12CB1300BBA446 /* Cara ou CoroaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB162C4A1F12CB1300BBA446 /* Build configuration list for PBXNativeTarget "Cara ou CoroaUITests" */;
+			buildPhases = (
+				EB162C371F12CB1300BBA446 /* Sources */,
+				EB162C381F12CB1300BBA446 /* Frameworks */,
+				EB162C391F12CB1300BBA446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB162C3D1F12CB1300BBA446 /* PBXTargetDependency */,
+			);
+			name = "Cara ou CoroaUITests";
+			productName = "Cara ou CoroaUITests";
+			productReference = EB162C3B1F12CB1300BBA446 /* Cara ou CoroaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB162C141F12CB1300BBA446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matheus Cabral";
+				TargetAttributes = {
+					EB162C1B1F12CB1300BBA446 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z35556CXCZ;
+						ProvisioningStyle = Automatic;
+					};
+					EB162C2F1F12CB1300BBA446 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB162C1B1F12CB1300BBA446;
+					};
+					EB162C3A1F12CB1300BBA446 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB162C1B1F12CB1300BBA446;
+					};
+				};
+			};
+			buildConfigurationList = EB162C171F12CB1300BBA446 /* Build configuration list for PBXProject "Cara ou Coroa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB162C131F12CB1300BBA446;
+			productRefGroup = EB162C1D1F12CB1300BBA446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB162C1B1F12CB1300BBA446 /* Cara ou Coroa */,
+				EB162C2F1F12CB1300BBA446 /* Cara ou CoroaTests */,
+				EB162C3A1F12CB1300BBA446 /* Cara ou CoroaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB162C1A1F12CB1300BBA446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB162C2A1F12CB1300BBA446 /* LaunchScreen.storyboard in Resources */,
+				EB162C271F12CB1300BBA446 /* Assets.xcassets in Resources */,
+				EB162C251F12CB1300BBA446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB162C2E1F12CB1300BBA446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB162C391F12CB1300BBA446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB162C181F12CB1300BBA446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB162C221F12CB1300BBA446 /* ViewController.swift in Sources */,
+				EB162C201F12CB1300BBA446 /* AppDelegate.swift in Sources */,
+				EB162C5A1F12D11C00BBA446 /* DetalhesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB162C2C1F12CB1300BBA446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB162C351F12CB1300BBA446 /* Cara_ou_CoroaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB162C371F12CB1300BBA446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB162C401F12CB1300BBA446 /* Cara_ou_CoroaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB162C321F12CB1300BBA446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB162C1B1F12CB1300BBA446 /* Cara ou Coroa */;
+			targetProxy = EB162C311F12CB1300BBA446 /* PBXContainerItemProxy */;
+		};
+		EB162C3D1F12CB1300BBA446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB162C1B1F12CB1300BBA446 /* Cara ou Coroa */;
+			targetProxy = EB162C3C1F12CB1300BBA446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB162C231F12CB1300BBA446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB162C241F12CB1300BBA446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB162C281F12CB1300BBA446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB162C291F12CB1300BBA446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB162C421F12CB1300BBA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB162C431F12CB1300BBA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB162C451F12CB1300BBA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35556CXCZ;
+				INFOPLIST_FILE = "Cara ou Coroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matheus.Cara-ou-Coroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB162C461F12CB1300BBA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z35556CXCZ;
+				INFOPLIST_FILE = "Cara ou Coroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matheus.Cara-ou-Coroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB162C481F12CB1300BBA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cara ou CoroaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matheus.Cara-ou-CoroaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cara ou Coroa.app/Cara ou Coroa";
+			};
+			name = Debug;
+		};
+		EB162C491F12CB1300BBA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cara ou CoroaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matheus.Cara-ou-CoroaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cara ou Coroa.app/Cara ou Coroa";
+			};
+			name = Release;
+		};
+		EB162C4B1F12CB1300BBA446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Cara ou CoroaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matheus.Cara-ou-CoroaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cara ou Coroa";
+			};
+			name = Debug;
+		};
+		EB162C4C1F12CB1300BBA446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Cara ou CoroaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matheus.Cara-ou-CoroaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cara ou Coroa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB162C171F12CB1300BBA446 /* Build configuration list for PBXProject "Cara ou Coroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB162C421F12CB1300BBA446 /* Debug */,
+				EB162C431F12CB1300BBA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB162C441F12CB1300BBA446 /* Build configuration list for PBXNativeTarget "Cara ou Coroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB162C451F12CB1300BBA446 /* Debug */,
+				EB162C461F12CB1300BBA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB162C471F12CB1300BBA446 /* Build configuration list for PBXNativeTarget "Cara ou CoroaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB162C481F12CB1300BBA446 /* Debug */,
+				EB162C491F12CB1300BBA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB162C4A1F12CB1300BBA446 /* Build configuration list for PBXNativeTarget "Cara ou CoroaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB162C4B1F12CB1300BBA446 /* Debug */,
+				EB162C4C1F12CB1300BBA446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB162C141F12CB1300BBA446 /* Project object */;
+}
